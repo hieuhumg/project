@@ -1,0 +1,309 @@
+.wrapper {
+    background-color: #fff;
+}
+body {
+    font-family: roboto;
+}
+
+
+.wp-inner {
+    width: 1170px;
+    margin: 0px auto;
+    position: relative;
+}
+/*style header*/
+.logo {
+    padding-top: 5px;
+}
+ul.main-menu {
+    padding-right: 65px;
+}
+ul.main-menu li {
+    float: left;
+    padding:30px 25px;
+}
+ul.main-menu li:hover {
+    background: whitesmoke;
+    transition: all 0.3s;
+}
+ul.main-menu li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+ul.main-menu li a i {
+    padding-left: 10px;
+}
+.icon {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    cursor: pointer;
+}
+.icon i {
+    padding-left: 10px;
+}
+.slider {
+
+    background-image: url(../images/banner.jpg);
+    height: 700px;
+    background-size: cover;
+}
+.widget-item {
+    width: 1170px;
+    margin: 0px auto;
+    padding-top: 760px;
+}
+.intro {
+   width: 360px;
+    float: left;
+    background-color: #e47979;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 30px;
+    text-align: center;
+}
+.intro .item {
+    padding: 15px 30px;
+    position: relative;
+}
+.intro .item i {
+    float: right;
+    position: absolute;
+    top: 1px;
+    background: #d65353;
+    padding: 14px;
+    right: -20px;
+}
+/*style broadcrumb - category*/
+.breadcrumb {
+    background-color: #e9e9e9;
+    padding: 10px 0px;
+}
+.breadcrumb a {
+    color: #4a4a4a;
+    padding: 10px 0px;
+}
+.breadcrumb i.fas.fa-angle-right {
+    font-size: 15px;
+    padding: 0px 9px;
+}
+.breadcrumb i.fas.fa-home {
+    padding-right: 7px;
+}
+/*style product-index*/
+.title h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 44px 0px;
+}
+.item, .widget-product {
+    border: 1px solid #80808080;
+}
+.product-feature .owl-carousel .item h3, .widget-product h3 {
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 300;
+}
+.product-feature .owl-carousel .item p, .widget-product p {
+    color: red;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.item p span, .widget-product span {
+    text-decoration: line-through;
+    color: black;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.product-feature .owl-carousel .item .btn, .widget-product .btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 14px 45px;
+    border:none;
+    margin: 22px 0px;
+    background-color: #d0cccc94;
+    border-radius: 40px;
+}
+.widget-product {
+    width: 288px;
+    float: left;
+    margin: 3px 2px;
+}
+/*style category*/
+.list-category {
+    width: 860px;
+    margin-top: 55px;
+    border-right: 1px solid whitesmoke;
+}
+.list-category a{
+    float: left;
+}
+.list-category .widget-content-new {
+    width: 488px;
+    padding-left: 35px;
+    text-align: justify;
+}
+.list-category .widget-content-new h3 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+.list-category ul li {
+    float: left;
+    padding-bottom: 30px;
+}
+.list-category .widget-content-new span {
+    font-size: 15px;
+}
+.list-category .widget-content-new p {
+    font-size: 17px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.sidebar {
+    width: 280px;
+    margin-top: 50px;
+}
+.sidebar h3 {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: gray;
+    color: #fff;
+}
+
+.sidebar ul li {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+.sidebar ul li:hover {
+    color: #8881819e;
+}
+.category-menu, .product-running {
+    border: 1px solid gray;
+}
+.product-running {
+    margin-top: 50px;
+}
+.list-running {
+    margin-bottom: 45px;
+}
+.list-running img {
+    float: left;
+    padding: 10px 10px;
+}
+.running-content h4 {
+    font-size: 14px;
+    padding: 10px 0px 7px;
+}
+.running-content p {
+    font-size: 15px;
+    color: red;
+    padding-bottom: 10px;
+}
+/*style post-feature*/
+.post-feature {
+    margin-bottom: 60px;
+}
+.post-feature .item h3 {
+    padding: 10px 10px;
+}
+.post-feature p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.post-feature .item {
+    border: none;
+}
+/*style widget-product*/
+.product-tag {
+    width: 885px;
+    margin: 47px 0px;
+}
+/*style promotion*/
+.promotion {
+    background-image: url(../images/banner-2.jpg);
+    height: 500px;
+    background-size: cover;
+}
+.promotion h2 {
+    font-size: 45px;
+    padding: 120px 0px 15px 0px;
+}
+.promotion p {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+button {
+    padding:  10px;
+    text-transform:  uppercase;
+    color:  gray;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input#email {
+    width: 600px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+/*style footer*/
+.footer {
+    background-color: #1b1b1b;
+}
+.widget-1 {
+    width: 373px;
+    float: left;
+    padding-top: 70px;
+}
+.widget-1 p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+    text-align: justify;
+}
+.widget-2, .widget-4 {
+    width: 195px;
+    margin-left: 60px;
+    float: left;
+    padding-top: 70px;
+}
+.widget-3 {
+    width: 152px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.widget-title h4 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.widget-detail ul li {
+    padding-bottom: 10px;
+}
+.widget-detail ul li a {
+    color: gray;
+}
+.widget-detail ul li:hover a {
+    color: #f5dddd;
+}
+/*style copyright*/
+.copyright {
+    padding: 20px 0px;
+}
+ .thumb img {
+    width: 100%;
+    height: 256;
+}
